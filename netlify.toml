@@ -1,0 +1,10 @@
+[build.environment]
+  NODE_VERSION = "14"
+
+[build]
+  publish = "dist"
+  command = "yarn build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
