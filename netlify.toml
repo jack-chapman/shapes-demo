@@ -3,7 +3,7 @@
 
 [build]
   publish = "dist"
-  command = "yarn build"
+  command = "build"
 
 [[redirects]]
   from = "/*"
